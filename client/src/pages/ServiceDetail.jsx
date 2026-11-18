@@ -173,8 +173,6 @@ export default function ServiceDetail() {
 
         </div>
       </section>
-
-      <CTA />
     </>
   )
 }
