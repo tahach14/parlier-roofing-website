@@ -195,7 +195,48 @@ loadMore: 'Load More',
 noProjects: 'No projects found.',
 closeImage: 'Close image',
 roofingProject: 'Roofing Project',
-'let\'sTalk': "LET'S TALK"
+'let\'sTalk': "LET'S TALK",
+learnMore: 'Learn More',
+serviceOverview: 'Service Overview',
+suitableFor: 'Where This System Works Best',
+serviceBenefits: 'Key Benefits',
+serviceProcess: 'Our Approach',
+backToServices: 'Back to All Services',
+
+tpoDetail: 'TPO and PVC are single-ply membrane roofing systems commonly used on flat and low-slope roofs. These systems provide a continuous waterproofing layer for commercial buildings and other suitable properties. The right membrane depends on the building, roof condition, and project requirements.',
+tpoSuitable: 'A practical option for commercial buildings, warehouses, and other properties with flat or low-slope roofs. A roof inspection helps determine whether TPO or PVC is the better fit.',
+tpoBenefits: 'These membrane systems offer a continuous waterproof surface, relatively lightweight construction, and heat-welded seams. PVC and TPO have different material properties, so the right choice depends on the building and its exposure conditions.',
+tpoProcess: 'The project generally starts with an inspection of the existing roof and drainage. The roof surface is then prepared, the appropriate membrane system is selected, and the membrane and seams are installed according to the system requirements. A final review checks the finished roof.',
+
+torchDetail: 'Torch-down roofing is a modified bitumen roofing system installed in layers. The membrane is applied using heat to create a protective surface designed for flat and low-slope roofs.',
+torchSuitable: 'Often considered for flat or low-slope residential and commercial roofs where a modified bitumen system is appropriate. Existing roof conditions and site requirements should be assessed first.',
+torchBenefits: 'A layered roofing assembly can provide a durable waterproofing surface. Modified bitumen materials are designed to accommodate normal roof movement and changing weather conditions when properly selected and installed.',
+torchProcess: 'The roof is inspected and prepared before installation. Suitable base and cap sheets are selected and applied according to the roofing system specifications. Because torch application involves open flame, installation requires appropriate fire-safety precautions and qualified handling.',
+
+coatingsDetail: 'Roof coatings are liquid-applied protective layers designed for certain existing roof surfaces. Depending on the coating type and roof condition, they can help protect the surface from weather exposure and support ongoing roof maintenance.',
+coatingsSuitable: 'Coatings may be suitable for some existing flat or low-slope roofs when the surface is structurally sound, properly prepared, and compatible with the selected coating. They are not the right solution for every damaged roof.',
+coatingsBenefits: 'A suitable coating can create a protective layer, help seal minor surface imperfections, and support maintenance of an existing roof. The expected performance depends on the coating product, preparation, and roof condition.',
+coatingsProcess: 'The existing roof is inspected for moisture, damage, and compatibility. The surface is cleaned and prepared, repairs are addressed where needed, and the selected coating is applied according to manufacturer instructions.',
+
+shingleDetail: 'Shingle roofing is a popular option for residential properties. Asphalt shingles are installed in overlapping courses over a prepared roof deck and underlayment to create a protective roof covering.',
+shingleSuitable: 'A common choice for homes with sloped roofs. Shingle style, color, ventilation, and underlayment can be considered according to the property design and project requirements.',
+shingleBenefits: 'Shingles are available in a range of colors and styles, making it easier to complement a home exterior. Individual damaged areas can often be addressed without replacing the entire roof, depending on the roof condition and material availability.',
+shingleProcess: 'The roof and underlying deck are inspected. Old materials are removed when required, the surface is prepared, and underlayment and flashing are installed as appropriate. Shingles are then installed in accordance with the selected system specifications.',
+
+tileDetail: 'Tile roofing offers a distinctive appearance and is used on many residential properties. Roofing tiles are installed over a suitable roof structure and underlayment system, which work together to protect the building from the elements.',
+tileSuitable: 'A good option for properties designed to support the weight and structure of a tile roof. The roof framing, slope, underlayment, and existing condition should be evaluated before installation or repair.',
+tileBenefits: 'Tile roofs are valued for their appearance, long service potential when properly maintained, and resistance to many common weather conditions. Individual tiles can sometimes be replaced when damage is limited.',
+tileProcess: 'The roof structure and existing materials are assessed first. The appropriate underlayment and flashing details are planned, then tiles are installed or repaired with attention to alignment, drainage, and the roofing system requirements.',
+
+metalDetail: 'Metal roofing uses formed metal panels or sheets to create a protective roof covering. It is available in different profiles and finishes and can be considered for a range of residential and commercial buildings.',
+metalSuitable: 'Suitable for many sloped residential and commercial roofs, depending on the panel system, building design, and local conditions. The correct fastening and flashing details are important to the finished installation.',
+metalBenefits: 'Metal roofing is known for its durability, relatively low maintenance needs, and range of available finishes. Its performance depends on the selected material, protective finish, installation details, and maintenance.',
+metalProcess: 'The roof is inspected and measured, and the appropriate panel system is selected. The roof deck and underlayment are prepared, then panels, fasteners, flashing, and trim are installed according to the system specifications.',
+
+decksDetail: 'Deck projects can include outdoor deck improvements as well as roof deck surfaces. The right solution depends on how the space is used, the existing structure, and whether waterproofing is required beneath the finished surface.',
+decksSuitable: 'For properties looking to improve an outdoor living area or address a roof deck surface. Structural condition, drainage, access, and waterproofing requirements should be reviewed before work begins.',
+decksBenefits: 'A properly planned deck project can make an outdoor space more useful and improve the appearance of the property. For roof decks, suitable waterproofing and drainage details are especially important.',
+decksProcess: 'The existing area is assessed for structure, condition, drainage, and intended use. The project scope and suitable materials are then determined, followed by preparation and installation based on the specific deck requirements.'
   },
 
   es: {
@@ -389,7 +430,48 @@ loadMore: 'Ver más',
 noProjects: 'No se encontraron proyectos.',
 closeImage: 'Cerrar imagen',
 roofingProject: 'Proyecto de techado',
-'let\'sTalk': 'HABLEMOS'
+'let\'sTalk': 'HABLEMOS',
+learnMore: 'Más información',
+serviceOverview: 'Descripción del servicio',
+suitableFor: '¿Dónde funciona mejor este sistema?',
+serviceBenefits: 'Beneficios principales',
+serviceProcess: 'Nuestro proceso',
+backToServices: 'Volver a todos los servicios',
+
+tpoDetail: 'Los sistemas de techado TPO y PVC son membranas de una sola capa que se utilizan comúnmente en techos planos o de poca pendiente. Proporcionan una capa impermeable continua para edificios comerciales y otras propiedades adecuadas. La membrana correcta depende del edificio, del estado del techo y de los requisitos del proyecto.',
+tpoSuitable: 'Una opción práctica para edificios comerciales, almacenes y otras propiedades con techos planos o de poca pendiente. Una inspección ayuda a determinar si TPO o PVC es la mejor opción.',
+tpoBenefits: 'Estos sistemas ofrecen una superficie impermeable continua, una construcción relativamente ligera y uniones selladas mediante calor. TPO y PVC tienen diferentes propiedades, por lo que la elección depende del edificio y de sus condiciones de exposición.',
+tpoProcess: 'El proyecto generalmente comienza con una inspección del techo existente y su drenaje. Después se prepara la superficie, se selecciona la membrana adecuada y se instalan la membrana y sus uniones según los requisitos del sistema. Finalmente, se revisa el trabajo terminado.',
+
+torchDetail: 'El techado con soplete es un sistema de membrana asfáltica modificada que se instala en capas. La membrana se aplica mediante calor para crear una superficie protectora diseñada para techos planos y de poca pendiente.',
+torchSuitable: 'Se considera con frecuencia para techos planos o de poca pendiente en propiedades residenciales y comerciales, cuando un sistema de asfalto modificado es apropiado. Primero se deben evaluar las condiciones del techo y del lugar.',
+torchBenefits: 'Un sistema de varias capas puede proporcionar una superficie impermeable y resistente. Los materiales de asfalto modificado están diseñados para adaptarse al movimiento normal del techo y a los cambios climáticos cuando se seleccionan e instalan correctamente.',
+torchProcess: 'Primero se inspecciona y prepara el techo. Se seleccionan las capas base y superiores adecuadas y se aplican según las especificaciones del sistema. Debido a que la aplicación con soplete utiliza una llama abierta, se requieren precauciones de seguridad contra incendios y personal calificado.',
+
+coatingsDetail: 'Los recubrimientos para techos son capas protectoras líquidas diseñadas para ciertas superficies existentes. Según el tipo de recubrimiento y el estado del techo, pueden ayudar a proteger la superficie de la exposición al clima y facilitar su mantenimiento.',
+coatingsSuitable: 'Los recubrimientos pueden ser adecuados para algunos techos planos o de poca pendiente cuando la superficie está en buenas condiciones estructurales, está bien preparada y es compatible con el producto elegido. No son la solución adecuada para todos los techos dañados.',
+coatingsBenefits: 'Un recubrimiento adecuado puede crear una capa protectora, ayudar a sellar pequeñas imperfecciones superficiales y facilitar el mantenimiento del techo existente. El rendimiento depende del producto, la preparación y el estado del techo.',
+coatingsProcess: 'Se inspecciona el techo existente para detectar humedad, daños y compatibilidad. Se limpia y prepara la superficie, se realizan las reparaciones necesarias y se aplica el recubrimiento seleccionado siguiendo las instrucciones del fabricante.',
+
+shingleDetail: 'El techado con tejas asfálticas es una opción popular para propiedades residenciales. Las tejas se instalan en capas superpuestas sobre una base preparada y una membrana inferior para crear una cubierta protectora.',
+shingleSuitable: 'Una opción común para viviendas con techos inclinados. El estilo, color, ventilación y la capa inferior pueden elegirse según el diseño de la propiedad y los requisitos del proyecto.',
+shingleBenefits: 'Las tejas están disponibles en una variedad de colores y estilos, lo que facilita combinarlas con el exterior de una vivienda. En muchos casos, las áreas dañadas pueden repararse sin reemplazar todo el techo, según su estado y la disponibilidad de materiales.',
+shingleProcess: 'Primero se inspeccionan el techo y la base. Cuando es necesario, se retiran los materiales antiguos y se prepara la superficie. Después se instalan la membrana inferior y los tapajuntas correspondientes, seguidos de las tejas según las especificaciones del sistema.',
+
+tileDetail: 'Los techos de teja ofrecen una apariencia distintiva y se utilizan en muchas propiedades residenciales. Las tejas se instalan sobre una estructura y un sistema de base adecuados que trabajan juntos para proteger el edificio de los elementos.',
+tileSuitable: 'Una buena opción para propiedades cuya estructura puede soportar el peso y los requisitos de un techo de teja. Antes de instalar o reparar, se deben evaluar la estructura, la pendiente, la base y el estado actual del techo.',
+tileBenefits: 'Los techos de teja son apreciados por su apariencia, su potencial de larga duración cuando reciben el mantenimiento adecuado y su resistencia a muchas condiciones climáticas comunes. Cuando el daño es limitado, a veces se pueden reemplazar tejas individuales.',
+tileProcess: 'Primero se evalúan la estructura y los materiales existentes. Se planifican la base y los detalles de los tapajuntas adecuados. Después se instalan o reparan las tejas prestando atención a su alineación, drenaje y requisitos del sistema.',
+
+metalDetail: 'El techado metálico utiliza paneles o láminas de metal formadas para crear una cubierta protectora. Está disponible en diferentes perfiles y acabados y puede considerarse para diversos edificios residenciales y comerciales.',
+metalSuitable: 'Adecuado para muchos techos inclinados residenciales y comerciales, según el sistema de paneles, el diseño del edificio y las condiciones locales. Los detalles de fijación y los tapajuntas son importantes para una instalación correcta.',
+metalBenefits: 'Los techos metálicos son conocidos por su durabilidad, sus necesidades de mantenimiento relativamente bajas y la variedad de acabados disponibles. Su rendimiento depende del material elegido, el acabado protector, la instalación y el mantenimiento.',
+metalProcess: 'Se inspecciona y mide el techo, y se selecciona el sistema de paneles adecuado. Se prepara la base y la membrana inferior; después se instalan los paneles, sujetadores, tapajuntas y molduras según las especificaciones del sistema.',
+
+decksDetail: 'Los proyectos de terrazas pueden incluir mejoras en espacios exteriores y superficies de terrazas sobre techos. La solución adecuada depende del uso del espacio, la estructura existente y si se requiere impermeabilización debajo de la superficie terminada.',
+decksSuitable: 'Para propiedades que desean mejorar un espacio exterior o trabajar en la superficie de una terraza sobre el techo. Antes de comenzar, se deben revisar la estructura, el drenaje, el acceso y los requisitos de impermeabilización.',
+decksBenefits: 'Un proyecto de terraza bien planificado puede hacer que un espacio exterior sea más funcional y mejorar la apariencia de la propiedad. En las terrazas sobre techos, la impermeabilización y el drenaje adecuados son especialmente importantes.',
+decksProcess: 'Se evalúa el área existente, incluyendo la estructura, el estado, el drenaje y el uso previsto. Después se determinan el alcance del proyecto y los materiales adecuados, seguidos de la preparación y la instalación según los requisitos específicos de la terraza.'
 
   }
 }

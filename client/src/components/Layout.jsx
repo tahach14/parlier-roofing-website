@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react'
 import { NavLink, Link } from 'react-router-dom'
-import { Phone, MapPin, Menu, X, ArrowUpRight } from 'lucide-react'
+import { Phone, MapPin, Menu, X, ArrowUpRight, ChevronDown } from 'lucide-react'
 import Brand from './Brand'
 import { useLanguage } from '../context/LanguageContext'
 
@@ -12,6 +12,7 @@ const navClass = ({ isActive }) =>
 
 export function Header() {
   const [open, setOpen] = useState(false)
+  const [servicesOpen, setServicesOpen] = useState(false)
   const { language, setLanguage, t } = useLanguage()
 
   const links = [
@@ -21,6 +22,16 @@ export function Header() {
     [t('services'), '/services'],
     [t('contact'), '/contact']
   ]
+
+  const serviceLinks = [
+  ['tpoTitle', '/services/tpoTitle'],
+  ['torchTitle', '/services/torchTitle'],
+  ['coatingsTitle', '/services/coatingsTitle'],
+  ['shingleTitle', '/services/shingleTitle'],
+  ['tileTitle', '/services/tileTitle'],
+  ['metalTitle', '/services/metalTitle'],
+  ['decksTitle', '/services/decksTitle']
+]
 
   return (
     <>
@@ -82,16 +93,67 @@ export function Header() {
 
           <nav className={`${open ? 'absolute left-0 right-0 top-full flex flex-col border-t border-slate-100 bg-white px-6 py-4 shadow-xl' : 'hidden'} items-stretch gap-0 md:static md:flex md:flex-row md:items-center md:gap-8 md:border-0 md:bg-transparent md:p-0 md:shadow-none`}>
             {links.map(([label, path]) => (
-              <NavLink
-                key={path}
-                to={path}
-                end={path === '/'}
-                className={({ isActive }) => `${navClass({ isActive })} border-b border-slate-100 py-3 md:border-0 md:py-0`}
-                onClick={() => setOpen(false)}
-              >
-                {label}
-              </NavLink>
-            ))}
+  path === '/services' ? (
+    <div
+  key={path}
+  className="relative group border-b border-slate-100 md:border-0"
+  onMouseEnter={() => setServicesOpen(true)}
+  onMouseLeave={() => setServicesOpen(false)}
+>
+      <div className="flex items-center justify-between md:justify-start">
+        <NavLink
+          to={path}
+          className={({ isActive }) => `${navClass({ isActive })} py-3 md:py-0`}
+          onClick={() => setOpen(false)}
+        >
+          {label}
+        </NavLink>
+
+        <button
+          type="button"
+          className="p-3 text-roof-navy md:p-2"
+          aria-label="Toggle services menu"
+          onClick={() => setServicesOpen(!servicesOpen)}
+        >
+          <ChevronDown
+            size={17}
+            className={`transition-transform ${servicesOpen ? 'rotate-180' : ''}`}
+          />
+        </button>
+      </div>
+
+      <div
+  className={`${
+    servicesOpen ? 'block' : 'hidden'
+  } static w-full bg-white py-2 md:absolute md:left-0 md:top-full md:w-[260px] md:border md:border-slate-100 md:shadow-xl`}
+>
+        {serviceLinks.map(([key, servicePath]) => (
+  <Link
+    key={key}
+    to={servicePath}
+    onClick={() => {
+  setServicesOpen(false)
+  setOpen(false)
+}}
+    className="block px-5 py-2.5 text-[14px] font-medium text-[#39434b] transition hover:bg-slate-50 hover:text-[#ff0000]"
+  >
+    {t(key)}
+  </Link>
+))}
+      </div>
+    </div>
+  ) : (
+    <NavLink
+      key={path}
+      to={path}
+      end={path === '/'}
+      className={({ isActive }) => `${navClass({ isActive })} border-b border-slate-100 py-3 md:border-0 md:py-0`}
+      onClick={() => setOpen(false)}
+    >
+      {label}
+    </NavLink>
+  )
+))}
 
             <Link
               className="mt-3 inline-flex items-center justify-center gap-3 bg-roof-navy px-5 py-3.5 text-xs font-bold text-white transition hover:bg-[#23394b] md:mt-0"

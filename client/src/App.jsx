@@ -8,6 +8,7 @@ import Services from './pages/Services'
 import Contact from './pages/Contact'
 import { LanguageProvider } from './context/LanguageContext'
 import ScrollToTop from './components/ScrollToTop'
+import ServiceDetail from './pages/ServiceDetail'
 
 export default function App() {
   return (
@@ -21,6 +22,7 @@ export default function App() {
           <Route path="/services" element={<Services />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<Home />} />
+          <Route path="/services/:slug" element={<ServiceDetail />} />
         </Routes>
       </Layout>
     </LanguageProvider>

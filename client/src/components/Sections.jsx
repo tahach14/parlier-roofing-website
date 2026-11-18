@@ -41,23 +41,42 @@ export function SectionHeading({ eyebrow, title, copy, center = false }) {
   )
 }
 
+
 export function ServiceCards({ limit }) {
   const { t } = useLanguage()
 
   return (
     <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
       {services.slice(0, limit || services.length).map(([nameKey, descKey, img], i) => (
-        <article className="group overflow-hidden border border-[#e7eaed] bg-white transition duration-300 hover:-translate-y-1 hover:shadow-xl" key={nameKey}>
+        <Link
+          to={`/services/${nameKey}`}
+          key={nameKey}
+          className="group block overflow-hidden border border-[#e7eaed] bg-white transition duration-300 hover:-translate-y-1 hover:shadow-xl"
+        >
           <div className="relative h-48 overflow-hidden bg-slate-100">
-            <img className="h-full w-full object-cover transition duration-500 group-hover:scale-105" src={img} alt={t(nameKey)} />
-            <span className="absolute bottom-3 left-4 font-display text-2xl text-white drop-shadow">0{i + 1}</span>
+            <img
+              className="h-full w-full object-cover transition duration-500 group-hover:scale-105"
+              src={img}
+              alt={t(nameKey)}
+            />
+            <span className="absolute bottom-3 left-4 z-10 font-display text-2xl text-white drop-shadow">
+              0{i + 1}
+            </span>
             <div className="absolute inset-0 bg-gradient-to-t from-[#101c28]/50 to-transparent" />
           </div>
+
           <div className="p-5">
-            <h3 className="font-display text-2xl font-bold text-roof-navy">{t(nameKey)}</h3>
-            <p className="mt-2 min-h-10 text-sm leading-6 text-[#707b83]">{t(descKey)}</p>
+            <h3 className="font-display text-2xl font-bold text-roof-navy">
+              {t(nameKey)}
+            </h3>
+            <p className="mt-2 min-h-10 text-sm leading-6 text-[#707b83]">
+              {t(descKey)}
+            </p>
+            <span className="mt-4 inline-flex items-center gap-2 text-sm font-bold text-roof-red">
+              {t('learnMore')} <ArrowRight size={16} />
+            </span>
           </div>
-        </article>
+        </Link>
       ))}
     </div>
   )
