@@ -198,22 +198,25 @@ export function Footer() {
         </div>
 
         <div className="flex flex-col items-start gap-3">
-          <h4 className="mb-2 font-display text-xl text-white">{t('roofingServices')}</h4>
-          {[
-    ['tpoTitle', 'TPO & PVC Roofing'],
-    ['shingleTileTitle', 'Shingle & Tile Roofs'],
-    ['metalTitle', 'Metal Roofing'],
-    ['coatingsTitle', 'Roof Coatings']
-  ].map(([key, fallback]) => (
+  <h4 className="mb-2 font-display text-xl text-white">
+    {t('roofingServices')}
+  </h4>
+
+  {[
+    ['tpoTitle', '/services/tpoTitle'],
+    ['shingleTitle', '/services/shingleTitle'],
+    ['metalTitle', '/services/metalTitle'],
+    ['coatingsTitle', '/services/coatingsTitle']
+  ].map(([key, path]) => (
     <Link
       key={key}
-      className="text-md text-[#aeb9c1] hover:text-roof-red"
-      to="/services"
+      to={path}
+      className="text-md text-[#aeb9c1] transition hover:text-roof-red"
     >
       {t(key)}
     </Link>
   ))}
-        </div>
+</div>
 
         <div className="flex flex-col items-start gap-3">
           <h4 className="mb-2 font-display text-xl text-white">{t('getInTouch')}</h4>
