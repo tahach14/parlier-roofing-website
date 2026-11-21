@@ -56,7 +56,7 @@ const faqs = [
             </p>
 
             <div className="mt-8 flex flex-wrap items-center gap-5">
-              <Link className="inline-flex items-center gap-3 bg-roof-gold px-6 py-4 text-sm font-bold text-roof-navy transition hover:-translate-y-0.5 hover:bg-[#e3b968]" to="/contact">
+              <Link className="inline-flex items-center gap-3 bg-roof-red px-6 py-4 text-sm font-bold text-roof-navy transition hover:-translate-y-0.5 hover:bg-[#ff0000]/80" to="/contact">
                 {t('requestQuote')} <ArrowUpRight size={17} />
               </Link>
 
